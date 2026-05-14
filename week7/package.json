@@ -1,0 +1,17 @@
+{
+  "name": "blog-app-root",
+  "version": "1.0.0",
+  "description": "Root project to run backend and frontend concurrently",
+  "scripts": {
+    "dev": "concurrently \"npm run start-backend-dev\" \"npm run start-frontend-dev\"",
+    "start-backend-dev": "cd BLOG-APP-BACKEND && npm run dev",
+    "start-frontend-dev": "cd BLOG-APP-FRONTEND && npm run dev",
+    "build": "npm run build-frontend && npm run install-backend",
+    "build-frontend": "cd BLOG-APP-FRONTEND && npm install && npm run build",
+    "install-backend": "cd BLOG-APP-BACKEND && npm install",
+    "start": "cd BLOG-APP-BACKEND && npm start"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}

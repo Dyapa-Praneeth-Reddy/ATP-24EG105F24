@@ -1,0 +1,62 @@
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+.user-form {
+  margin-bottom: 30px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input-group input, 
+.input-group select {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+hr {
+  margin: 30px 0;
+}
+
+/* Simple table styles */
+.user-table {
+  width: 100%;
+  border-collapse: collapse; /* removes spacing between table cells */
+}
+
+.user-table th, 
+.user-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.user-table th {
+  background-color: #f2f2f2;
+}
