@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "zustand": "^5.0.12"
+  },
+  "name": "mern-app-emps",
+  "version": "1.0.0",
+  "description": "- Create HTTP Server\r         - Create Employee Schema(\r                 name,email,mobile,designation & companyName\r                 ) and model\r         - Define REST API routes for\r                 - Create Employee\r                 - Read all employees\r                 - Edit employee\r                 - Delete Employee",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install-all": "npm install && npm install --prefix backend && npm install --prefix frontend",
+    "build": "npm run build --prefix frontend",
+    "start": "node backend/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
